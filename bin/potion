@@ -124,17 +124,13 @@ class PotionCommandLine
       (main)> exit
 
       Then try these:
-      > rake device_name='iPhone 4s'
       > rake device_name='iPhone 5s'
-      > rake device_name='iPhone 5s' target=7.1
-      > rake device_name='iPhone 6 Plus'
-      > rake device_name='iPad Retina'
-      > rake device
-
-      Or for XCode 5.1
-      > rake retina=3.5
-      > rake retina=4
-      > rake device_family=ipad}
+      > rake device_name='iPhone 5s' target=8.1
+      > rake device_name='iPhone 8 Plus'
+      > rake device_name='iPhone X'
+      > rake device_name='iPad Air 2'
+      > rake device_name='iPad Pro (10.5-inch)'
+      > rake device}
 
     end
 
